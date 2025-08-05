@@ -1,37 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Challenge Begins</title>
 
     <!-- google fonts  -->
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 
-       <!-- css link  -->
+    <!-- css link  -->
     <link rel="stylesheet" href="./styles/challenges.css">
 
-          <!-- tailwind link  -->
-        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- tailwind link  -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
 </head>
-<body class="azeret-mono-normal">
+
+<body class="azeret-mono-normal  sm:mx-[0px]  mx-[30px]">
 
     <!-- header section  -->
     <header>
         <!-- navbar section  -->
-        <nav class="navbar flex max-w-[1240px] mx-auto justify-between items-center mt-[30px]">
+        <nav
+            class="navbar flex max-w-[1240px] mx-auto justify-between items-center mt-[30px] sm:flex-row flex-col-reverse">
             <h3 class="navbar-title font-extrabold text-[1.75rem] text-[#0D1321]">Nusrat.A</h3>
-            <button class="navbar-btn font-semibold text-[#0D1321] text-[1.25rem] rounded-[8px] border-[#0D1321]/30 border-1 px-[24px] py-[17px]">Download Resume</button>
+            <button
+                class="navbar-btn font-semibold text-[#0D1321] text-[1.25rem] rounded-[8px] border-[#0D1321]/30 border-1 px-[24px] py-[17px]">Download
+                Resume</button>
         </nav>
+
+        <!-- banner section  -->
         <section class="banner text-center bg-[url('./assets/Hero-bg.png')] my-[50px]">
             <div class="max-w-[1000px] m-auto ">
-            <img src="./assets/Group.png" alt="" class=" m-auto" >
-            <h3 class="banner-title font-extrabold text-[3rem] text-[#0D1321]">"In the near future, I hope to become a Developer."</h3>
-            <p class="banner-description text-[#0D1321]/80 my-[24px]">I'm passionate about technology and love turning ideas into reality through code.Currently learning and building small projects every day.My goal is to grow into a skilled full-stack developer.</p>
-            <button class="banner-btn font-semibold text-[1.25rem] text-[#FFFFFF] bg-[#0D1321] px-[24px] py-[21px] rounded-[8px] mb-[45px]">Contact with me</button>
+                <img src="./assets/Group.png" alt="" class=" m-auto">
+                <h3 class="banner-title font-extrabold sm:text-[3rem] text-[2rem] text-[#0D1321]">"In the near future, I
+                    hope to become a Developer."</h3>
+                <p class="banner-description text-[#0D1321]/80 my-[24px]">I'm passionate about technology and love
+                    turning ideas into reality through code.Currently learning and building small projects every day.My
+                    goal is to grow into a skilled full-stack developer.</p>
+                <button
+                    class="banner-btn font-semibold text-[1.25rem] text-[#FFFFFF] bg-[#0D1321] px-[24px] py-[21px] rounded-[8px] mb-[45px]">Contact
+                    with me</button>
             </div>
         </section>
     </header>
@@ -42,136 +55,181 @@
         <!-- development section  -->
         <section class="development max-w-[1040px] m-auto">
             <div class="development-content text-center mb-[48px]">
-                <h3 class="development-content-title text-[#0D1321] font-extrabold text-[2rem]">Why Web Development??</h3>
-                <p class="development-content-description text-[#0D1321]/70">Web development lets me turn ideas into interactive experiences that people can use and enjoy.I love how it blends creativity with logic and offers endless learning opportunities.</p>
+                <h3 class="development-content-title text-[#0D1321] font-extrabold text-[2rem]">Why Web Development??
+                </h3>
+                <p class="development-content-description text-[#0D1321]/70">Web development lets me turn ideas into
+                    interactive experiences that people can use and enjoy.I love how it blends creativity with logic and
+                    offers endless learning opportunities.</p>
             </div>
             <div class="card-container">
-                <div class="card1 flex flex-row-reverse justify-around my-[80px] ">
+                <div class="card1 flex justify-around my-[80px] sm:flex-row-reverse flex-col ">
 
                     <img src="./assets/Layer_1.png" alt="">
                     <div class="max-w-[400px]">
-                    <h3 class="card-title font-bold text-[1.5rem] text-[#0D1321]/70">I will Do Coding and Change The World</h3>
-                    <p class="card-description text-[#0D1321]/70 my-[20px]">Every line of code brings me closer to building something impactful.I'm learning to create solutions that matter. </p>
-                    <button class="card-btn border-1 border-[#0D1321]/30 px-[20px] py-[12px] font-semibold text-[1.25rem] text-[#0D1321]">Learn More</button>
+                        <h3 class="card-title font-bold text-[1.5rem] text-[#0D1321]/70">I will Do Coding and Change The
+                            World</h3>
+                        <p class="card-description text-[#0D1321]/70 my-[20px]">Every line of code brings me closer to
+                            building something impactful.I'm learning to create solutions that matter. </p>
+                        <button
+                            class="card-btn border-1 border-[#0D1321]/30 px-[20px] py-[12px] font-semibold text-[1.25rem] text-[#0D1321]">Learn
+                            More</button>
                     </div>
                 </div>
-                <div class="card2 flex my-[80px] gap-[20px]">
+                <div class="card2 flex my-[80px] gap-[20px] sm:flex-row flex-col">
                     <img src="./assets/Group 3.png" alt="">
                     <div class="max-w-[500px]">
-                    <h3 class="card-title font-bold text-[1.5rem] text-[#0D1321]/70">I will help People by creating Modern Web System</h3>
-                    <p class="card-description text-[#0D1321]/70 my-[20px]">Every line of code brings me closer to building something impactful.I'm learning to create solutions that matter. </p>
-                    <button class="card-btn border-1 border-[#0D1321]/30 px-[20px] py-[12px] font-semibold text-[1.25rem] text-[#0D1321]">Learn More</button>
+                        <h3 class="card-title font-bold text-[1.5rem] text-[#0D1321]/70">I will help People by creating
+                            Modern Web System</h3>
+                        <p class="card-description text-[#0D1321]/70 my-[20px]">Every line of code brings me closer to
+                            building something impactful.I'm learning to create solutions that matter. </p>
+                        <button
+                            class="card-btn border-1 border-[#0D1321]/30 px-[20px] py-[12px] font-semibold text-[1.25rem] text-[#0D1321]">Learn
+                            More</button>
                     </div>
                 </div>
-                <div class="card3 flex flex-row-reverse  my-[80px] justify-around ">
+                <div class="card3 flex   my-[80px] justify-around sm:flex-row-reverse flex-col">
                     <img src="./assets/Group 4.png" alt="">
                     <div class="max-w-[400px]">
-                    <h3 class="card-title font-bold text-[1.5rem] text-[#0D1321]/70">I will Do Coding and Change The World</h3>
-                    <p class="card-description text-[#0D1321]/70 my-[20px]">Every line of code brings me closer to building something impactful.I'm learning to create solutions that matter. </p>
-                    <button class="card-btn border-1 border-[#0D1321]/30 px-[20px] py-[12px] font-semibold text-[1.25rem] text-[#0D1321]">Learn More</button>
+                        <h3 class="card-title font-bold text-[1.5rem] text-[#0D1321]/70">I will Do Coding and Change The
+                            World</h3>
+                        <p class="card-description text-[#0D1321]/70 my-[20px]">Every line of code brings me closer to
+                            building something impactful.I'm learning to create solutions that matter. </p>
+                        <button
+                            class="card-btn border-1 border-[#0D1321]/30 px-[20px] py-[12px] font-semibold text-[1.25rem] text-[#0D1321]">Learn
+                            More</button>
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- inspiration section  -->
-         <section class="inspiration my-[100px] max-w-[1140px] m-auto">
+        <section class="inspiration my-[100px] max-w-[1140px] m-auto">
             <div class="inspiration-content text-center my-[50px] max-w-[740px] m-auto">
                 <h3 class="inspiration-title text-[#0D1321] font-extrabold text-[2rem]">My Inspiration</h3>
-                <p class="inspiration-description text-[#0D1321]/70">Creative design tells a story—mine begins with clean code, bold ideas, and a passion for simplicity.</p>
+                <p class="inspiration-description text-[#0D1321]/70">Creative design tells a story—mine begins with
+                    clean code, bold ideas, and a passion for simplicity.</p>
             </div>
             <div class="flex justify-center">
-            <iframe width="860" height="415" src="https://www.youtube.com/embed/AbrzyyEenDA?si=nqtmPDmm2cxPjajT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="860" height="415" src="https://www.youtube.com/embed/AbrzyyEenDA?si=nqtmPDmm2cxPjajT"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
 
-         </section>
+        </section>
 
-         <!-- current target section  -->
-          <section class="target max-w-[1040px] m-auto">
+        <!-- current target section  -->
+        <section class="target max-w-[1040px] m-auto">
             <div class="target-content text-center max-w-[800px] m-auto">
                 <h3 class="target-title font-extrabold text-[2rem] text-[#0D1321]">My Current Target</h3>
-                <p class="target-description text-[#0D1321]/70">I'm focused on sharpening my frontend skills—building real, responsive, and interactive web interfaces with HTML, CSS, and JavaScript.</p>
+                <p class="target-description text-[#0D1321]/70">I'm focused on sharpening my frontend skills—building
+                    real, responsive, and interactive web interfaces with HTML, CSS, and JavaScript.</p>
             </div>
 
-            <div class="target-card-container grid grid-cols-3 gap-[24px] mt-[50px] mb-[110px]">
+            <div class="target-card-container grid gap-[24px] mt-[50px] mb-[110px] sm:grid-cols-3 grid-cols-1">
                 <div class="target-card p-[40px] bg-[#FF4C1E]/5 rounded-[16px]">
                     <img src="./assets/html.png" alt="" class="mb-[25px]">
                     <h3 class="card-title font-extrabold text-[1.5rem] text-[#0D1321]">HTML</h3>
-                    <p class="target-card-description text-[#0D1321]/70 mb-[25px]">Mastering the foundation of every webpage—structure, semantics, and accessibility.</p>
+                    <p class="target-card-description text-[#0D1321]/70 mb-[25px]">Mastering the foundation of every
+                        webpage—structure, semantics, and accessibility.</p>
                     <a href="" class="card-link underline font-bold text-[#0D1321]">Learn More</a>
                 </div>
                 <div class="target-card p-[40px] bg-[#004CE8]/5 rounded-[16px]">
                     <img src="./assets/css.png" alt="" class="mb-[25px]">
                     <h3 class="card-title font-extrabold text-[1.5rem] text-[#0D1321]">CSS</h3>
-                    <p class="target-card-description text-[#0D1321]/70 mb-[25px]">Crafting visually appealing layouts with smooth, responsive designs</p>
+                    <p class="target-card-description text-[#0D1321]/70 mb-[25px]">Crafting visually appealing layouts
+                        with smooth, responsive designs</p>
                     <a href="" class="card-link underline font-bold text-[#0D1321]">Learn More</a>
                 </div>
                 <div class="target-card p-[40px] bg-[#FFDF00]/5 rounded-[16px]">
                     <img src="./assets/js.png" alt="" class="mb-[25px]">
                     <h3 class="card-title font-extrabold text-[1.5rem] text-[#0D1321]">JavaScript</h3>
-                    <p class="target-card-description text-[#0D1321]/70 mb-[25px]">Adding interactivity and dynamic behavior to bring static pages to life.</p>
+                    <p class="target-card-description text-[#0D1321]/70 mb-[25px]">Adding interactivity and dynamic
+                        behavior to bring static pages to life.</p>
                     <a href="" class="card-link underline font-bold text-[#0D1321]">Learn More</a>
                 </div>
             </div>
-          </section>
+        </section>
 
-           <!-- next target section  -->
-          <section class="next max-w-[1040px] m-auto mb-[50px]">
+        <!-- next target section  -->
+        <section class="next max-w-[1040px] m-auto mb-[50px]">
             <div class="next-content text-center max-w-[800px] m-auto mb-[50px]">
                 <h3 class="next-title font-extrabold text-[2rem] text-[#0D1321]">My Next Target</h3>
-                <p class="next-description text-[#0D1321]/70">I'm focused on sharpening my frontend skills—building real, responsive, and interactive web interfaces with HTML, CSS, and JavaScript.</p>
+                <p class="next-description text-[#0D1321]/70">I'm focused on sharpening my frontend skills—building
+                    real, responsive, and interactive web interfaces with HTML, CSS, and JavaScript.</p>
             </div>
             <div class="next-card-container">
-                <div class="next-card flex gap-[30px] p-[40px] border border-[#0D1321]/15 mb-[25px] items-center rounded-[16px]">
-                  
+                <div
+                    class="next-card flex gap-[30px] p-[40px] border border-[#0D1321]/15 mb-[25px] items-center rounded-[16px] sm:flex-row flex-col">
+
                     <img src="./assets/react.png" alt="" class="">
-                
+
                     <div class="next-card-content">
-                    <h3 class="next-card-title font-extrabold text-[1.5rem] text-[#0D1321]">ReactJS</h3>
-                    <p class="next-card-description text-[#0D1321]/70 mb-[25px]">ReactJS is a declarative, component-based JavaScript library for building dynamic and interactive user interfaces. It uses a virtual DOM to optimize rendering, making it highly efficient for single-page applications and complex UIs. Developers create reusable UI components that manage their own state.</p>
-                    <a href="" class="card-link underline font-bold text-[#0D1321]">Learn More</a>
+                        <h3 class="next-card-title font-extrabold text-[1.5rem] text-[#0D1321]">ReactJS</h3>
+                        <p class="next-card-description text-[#0D1321]/70 mb-[25px]">ReactJS is a declarative,
+                            component-based JavaScript library for building dynamic and interactive user interfaces. It
+                            uses a virtual DOM to optimize rendering, making it highly efficient for single-page
+                            applications and complex UIs. Developers create reusable UI components that manage their own
+                            state.</p>
+                        <a href="" class="card-link underline font-bold text-[#0D1321]">Learn More</a>
                     </div>
                 </div>
-                <div class="next-card flex gap-[30px] p-[40px] border border-[#0D1321]/15 mb-[25px] items-center rounded-[16px]">
-                    
+                <div
+                    class="next-card flex gap-[30px] p-[40px] border border-[#0D1321]/15 mb-[25px] items-center rounded-[16px] sm:flex-row flex-col">
+
                     <img src="./assets/nodejs.png" alt="">
-            
+
                     <div class="">
-                    <h3 class="next-card-title font-extrabold text-[1.5rem] text-[#0D1321]"">NodeJs</h3>
-                    <p class="next-card-description text-[#0D1321]/70 mb-[25px]">NodeJS is an open-source, cross-platform JavaScript runtime environment that executes JavaScript code outside a web browser, typically for server-side development. It utilizes an event-driven, non-blocking I/O model, making it highly scalable and efficient for real-time applications, APIs, and microservices.</p>
-                    <a href="" class="card-link underline font-bold text-[#0D1321]">Learn More</a>
+                        <h3 class="next-card-title font-extrabold text-[1.5rem] text-[#0D1321]"">NodeJs</h3>
+                    <p class=" next-card-description text-[#0D1321]/70 mb-[25px]">NodeJS is an open-source,
+                            cross-platform JavaScript runtime environment that executes JavaScript code outside a web
+                            browser, typically for server-side development. It utilizes an event-driven, non-blocking
+                            I/O model, making it highly scalable and efficient for real-time applications, APIs, and
+                            microservices.</p>
+                            <a href="" class="card-link underline font-bold text-[#0D1321]">Learn More</a>
                     </div>
                 </div>
-                <div class="next-card flex gap-[30px] p-[40px] border border-[#0D1321]/15 items-center rounded-[16px] ">
+                <div
+                    class="next-card flex gap-[30px] p-[40px] border border-[#0D1321]/15 items-center rounded-[16px] sm:flex-row flex-col">
                     <img src="./assets/mongodb.png" alt="">
                     <div class="">
-                    <h3 class="next-card-title font-extrabold text-[1.5rem] text-[#0D1321]"">MongoDB</h3>
-                    <p class="next-card-description text-[#0D1321]/70 mb-[25px]">MongoDB is a flexible, scalable NoSQL document database. It stores data in JSON-like documents with dynamic schemas, providing developers with agility and ease of use.</p>
-                    <a href="" class="card-link underline font-bold text-[#0D1321]">Learn More</a>
+                        <h3 class="next-card-title font-extrabold text-[1.5rem] text-[#0D1321]"">MongoDB</h3>
+                    <p class=" next-card-description text-[#0D1321]/70 mb-[25px]">MongoDB is a flexible, scalable NoSQL
+                            document database. It stores data in JSON-like documents with dynamic schemas, providing
+                            developers with agility and ease of use.</p>
+                            <a href="" class="card-link underline font-bold text-[#0D1321]">Learn More</a>
                     </div>
                 </div>
             </div>
-          </section>
+        </section>
 
-          <!-- support section  -->
-           <section class="support bg-[url(./assets/handshake.jpg)] bg-center max-w-[1040px] m-auto mb-[50px] rounded-[16px] ">
-    
+        <!-- support section  -->
+        <section
+            class="support bg-[url(./assets/handshake.jpg)] bg-center max-w-[1040px] m-auto mb-[50px] rounded-[16px] ">
+
             <div class="support-content text-center max-w-[800px] m-auto py-[80px] ">
                 <h3 class="support-title font-bold text-[2rem] text-[#FFFFFF]">I need Support</h3>
-                <p class="support-description text-[#FFFFFF]/70 mb-[40px] ">We are here to help! Our dedicated support team is ready to assist you with any questions, issues, or feedback you may have. Your satisfaction is our top priority.</p>
-                <input name="" id="" placeholder="Suggest me any feedback for me" class="bg-[#FFFFFF] text-[#0D1321]/70 rounded-[8px] py-[20px] pl-[20px] pr-[250px]">
+                <p class="support-description text-[#FFFFFF]/70 mb-[40px] ">We are here to help! Our dedicated support
+                    team is ready to assist you with any questions, issues, or feedback you may have. Your satisfaction
+                    is our top priority.</p>
 
-                <button type="submit" class="py-[17px] px-[20px] text-[#0D1321] font-semibold text-[1.25rem] bg-[#FFFFFF] rounded-[8px]">Submit</button>
+                <input name="" id="" placeholder="Suggest me any feedback for me"
+                    class="bg-[#FFFFFF] text-[#0D1321]/70 rounded-[8px] py-[20px] pl-[20px]  sm:pr-[250px] pr-[100px] sm:mb-[0] mb-[30px]">
+
+                <button type="submit"
+                    class="py-[17px] px-[20px] text-[#0D1321] font-semibold text-[1.25rem] bg-[#FFFFFF] rounded-[8px]">Submit</button>
             </div>
-           </section>
+        </section>
     </main>
-    <footer class="bg-[#0D1321]/3 rounded-[16px] flex justify-around items-center py-[32px]">
-        <h3 class="footer-title font-semibold text-[1.25rem] text-[#0D1321]">An Open Commitment by Nusrat Zaman Ahasana</h3>
-        <div class="footer-logos flex gap-[20px]">
+    <footer class="bg-[#0D1321]/3 rounded-[16px] flex justify-around items-center py-[32px] sm:flex-row flex-col">
+        <h3 class="footer-title font-semibold text-[1.25rem] text-[#0D1321]">An Open Commitment by Nusrat Zaman Ahasana
+        </h3>
+        <div class="footer-logos flex gap-[20px] ">
             <img src="./assets/facebook.png" alt="">
             <img src="./assets/github.png" alt="">
             <img src="./assets/linkedin-icon 1.png" alt="">
         </div>
     </footer>
 </body>
+
 </html>
